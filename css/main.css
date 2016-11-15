@@ -17,13 +17,14 @@ body {
 .banner {
   background-color: #2b3851;
   text-align: center;
-  min-height: 239px;
 }
 
 .robot {
   position: relative;
   display: inline-block;
   width: 320px;
+  min-height: 215px;
+  margin: 17px 0 0;
 }
 
 .robot-body {
@@ -56,10 +57,10 @@ body {
   right: 35px;
 }
 
-.robot:hover > .robot-head-right {
-  right: 0;
-}
-
 .robot:hover > .robot-head-left {
   left: 0;
+}
+
+.robot:hover > .robot-head-right {
+  right: 0;
 }
