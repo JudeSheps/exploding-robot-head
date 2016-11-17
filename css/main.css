@@ -50,10 +50,12 @@ body {
 }
 
 .robot-head-left {
+  top: 30px;
   left: 35px;
 }
 
 .robot-head-right {
+  top: 30px;
   right: 35px;
 }
 
