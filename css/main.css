@@ -50,19 +50,19 @@ body {
 }
 
 .robot-head-left {
-  top: 30px;
   left: 35px;
 }
 
 .robot-head-right {
-  top: 30px;
   right: 35px;
 }
 
 .robot:hover > .robot-head-left {
+  top: 30px;
   left: 0;
 }
 
 .robot:hover > .robot-head-right {
+  top: 30px;
   right: 0;
 }
